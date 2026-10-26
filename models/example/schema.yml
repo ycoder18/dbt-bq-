@@ -1,4 +1,3 @@
-
 version: 2
 
 sources:
@@ -6,4 +5,9 @@ sources:
     database: dbt-training-512610
     schema: raw
     tables:
-      - name: customers
+      - name: customer
+        identifier: Customer
+      - name: orders
+        identifier: Orders
+      - name: products
+        identifier: Products
